@@ -16,7 +16,7 @@ TITLE="$(basename "${INPUT%.md}")"
 TMPHTML="$(mktemp --suffix=.html)"
 trap 'rm -f "$TMPHTML"' EXIT
 
-BODY="$(marked --gfm < "$INPUT")"
+BODY="$(marked --gfm -i "$INPUT")"
 
 cat > "$TMPHTML" <<HTML
 <!doctype html>

@@ -1,4 +1,4 @@
-package com.kuldeep.jobtrail;
+package com.kuldeep.jobtrail.entity;
 
 public enum Status {
     SAVED,

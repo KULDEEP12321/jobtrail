@@ -1,7 +1,10 @@
-package com.kuldeep.jobtrail;
+package com.kuldeep.jobtrail.config;
 
 import java.util.List;
 
+import com.kuldeep.jobtrail.entity.JobApplication;
+import com.kuldeep.jobtrail.entity.Status;
+import com.kuldeep.jobtrail.repository.JobApplicationRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
